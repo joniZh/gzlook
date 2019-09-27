@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row"> 
+        <div class="col-8"> 
+            <thead>
+                <th>ID</th>
+                <th>name</th>
+                <th>lastname</th>
+                <th>age</th>
+                <th>email</th>
+                <th>profesional</th>
+                <th>*</th>
+
+            </thead>
+            <tbody>
+                <tr *ngFor = "let item of person">
+                    <td>{{item.ID}}</td>
+                    <td>{{item.name}}}</td>
+                    <td>{{item.lastname}}</td>
+                    <td>{{item.age}}</td>
+                    <td>{{item.email}}</td>
+                    <td>{{item.profesional}}</td>
+                    <td>
+                        <button (click)="eliminarPerson(item.ID)" class="btn btn-primary">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </div>
+        <div class="col-4">
+            <div class="form-group">
+                <label for="controlName">name</label>
+                <input type="text" class="form-control" placeholder="name of person">
+            </div>
+            <div class="form-group">
+                <label for="controlName">name</label>
+                <input type="text" class="form-control" placeholder="name of person">
+            </div>
+            <div class="form-group">
+                <label for="controlName">name</label>
+                <input type="text" class="form-control" placeholder="name of person">
+            </div>
+                
+        </div>
+    </div>
+</div>

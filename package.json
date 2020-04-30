@@ -23,7 +23,7 @@
     "bootstrap": "^4.0.0",
     "firebase": "^7.0.0",
     "font-awesome.css": "^4.7.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng2-toastr": "^4.1.2",
     "ngx-social-button": "^1.0.4",
     "popper.js": "^1.15.0",
